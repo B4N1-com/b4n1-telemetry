@@ -1,6 +1,6 @@
 # b4n1-telemetry SDK
 
-[![version](https://img.shields.io/badge/version-0.1.0-blue)](CHANGELOG.md)
+[![version](https://img.shields.io/badge/version-0.1.1-blue)](https://github.com/B4N1-com/b4n1-telemetry)
 [![license](https://img.shields.io/badge/license-BUSL--1.1-orange)](LICENSE)
 [![registry](https://img.shields.io/badge/registry-py%20%7C%20npm%20%7C%20nuget%20%7C%20gem%20%7C%20composer%20%7C%20go-brightgreen)](#install)
 [![tests](https://img.shields.io/badge/tests-7%20languages-green)](tests)
