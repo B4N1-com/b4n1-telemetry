@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>com.b4n1</groupId>
+  <artifactId>b4n1-telemetry</artifactId>
+  <version>0.1.1</version>
+  <packaging>jar</packaging>
+
+  <name>b4n1-telemetry</name>
+  <description>Drop-in error reporting to your own b4n1-telemetry collector. Zero dependencies.</description>
+  <url>https://b4n1.com</url>
+
+  <licenses>
+    <license>
+      <name>Business Source License 1.1</name>
+      <url>https://spdx.org/licenses/BUSL-1.1.html</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <maven.compiler.source>11</maven.compiler.source>
+    <maven.compiler.target>11</maven.compiler.target>
+  </properties>
+
+  <!-- No <dependencies>: the SDK is java.net.http plus the JDK. A jar that
+       drags a JSON library into every consumer is not a drop-in client. -->
+  <build>
+    <!-- Both texts travel inside the jar: <licenses> tells Maven Central the
+         licence, but the text has to be in the artefact (§10k). -->
+    <resources>
+      <resource>
+        <directory>${project.basedir}</directory>
+        <includes>
+          <include>LICENSE</include>
+          <include>EULA.txt</include>
+        </includes>
+      </resource>
+    </resources>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-surefire-plugin</artifactId>
+        <version>3.2.5</version>
+        <configuration>
+          <!-- The suite is a plain main(): no JUnit, no test dependency. -->
+          <skipTests>true</skipTests>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+</project>

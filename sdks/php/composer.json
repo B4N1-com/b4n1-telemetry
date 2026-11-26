@@ -1,0 +1,15 @@
+{
+  "name": "b4n1/b4n1-telemetry",
+  "description": "Drop-in error reporting to your own b4n1-telemetry collector. Zero dependencies.",
+  "type": "library",
+  "license": "BUSL-1.1",
+  "require": {
+    "php": ">=8.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "B4n1\\Telemetry\\": "src/"
+    }
+  },
+  "keywords": ["telemetry", "errors", "observability", "b4n1"]
+}

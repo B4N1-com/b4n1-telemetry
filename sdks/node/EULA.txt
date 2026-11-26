@@ -1,0 +1,71 @@
+B4N1-TELEMETRY — END USER LICENSE AGREEMENT
+===========================================
+
+Version: 1.0 | Effective: 2026-11-21 | Applies to: b4n1-telemetry 0.18.1+ and its SDKs 0.1.0+
+
+This End User License Agreement ("EULA") governs your use of the B4N1
+ARTIFACTS of b4n1-telemetry — the collector binary (`telemetry-server`),
+the packaged per-language SDK distributions (`*.whl`, `*.tgz`, `*.nupkg`,
+`*.gem`, `*.jar`, `*.phar`, Go modules) and any bundled documentation.
+
+The SDK wrapper SOURCE files are licensed separately under the Business
+Source License 1.1 — see the `LICENSE` file that travels with this one and
+each registry's license metadata.
+
+1. DEFINITIONS
+   "Artifacts" means the collector binary and the packaged SDK distributions
+   described above.
+   "SDK" means the BUSL-1.1 licensed wrapper source distributed per language.
+   "Source" means the Rust implementation of the collector, its build
+   scripts, internal tests and internal documentation. Source is NOT
+   distributed under this EULA and is not distributed to you at all.
+
+2. LICENSE GRANT
+   Subject to your compliance with this EULA and with any commercial
+   agreement between you and the Licensor, B4N1 grants you a non-exclusive,
+   non-transferable, revocable licence to install and use the Artifacts,
+   in object form, for your own internal business purposes, including
+   running the collector inside your own infrastructure.
+
+3. RESTRICTIONS
+   You may not:
+   (a) reverse engineer, decompile, disassemble or otherwise attempt to
+       derive the Source or the algorithms of the Artifacts, except to the
+       extent such restriction is prohibited by applicable law;
+   (b) redistribute, sublicense, sell, rent, lease or lend the Artifacts,
+       or provide them as a managed service to third parties, without a
+       written commercial agreement with the Licensor;
+   (c) remove or alter any copyright, licence or proprietary notice in the
+       Artifacts;
+   (d) use the Artifacts to build a competing product.
+
+4. DATA AND PRIVACY
+   The collector stores what your applications send it, on infrastructure you
+   control. It does not transmit your events to B4N1. You are the controller
+   of that data and are responsible for what you collect and for how long you
+   retain it: the collector ships retention controls precisely so you can
+   delete what you must.
+
+5. NO WARRANTY
+   THE ARTIFACTS ARE PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+   OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+   MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT.
+
+6. LIMITATION OF LIABILITY
+   IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+   CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT
+   OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE ARTIFACTS OR
+   THE USE OR OTHER DEALINGS IN THE ARTIFACTS.
+
+7. TERMINATION
+   This EULA terminates automatically if you breach it. On termination you
+   must stop using the Artifacts and delete all copies.
+
+8. THIRD-PARTY COMPONENTS
+   The Artifacts include third-party components licensed under their own
+   terms. The full list, with copyright notices and licence texts, is in
+   `THIRD-PARTY-NOTICES.txt`, which may be printed from the binary itself
+   with `--licenses`.
+
+9. CONTACT
+   B4N1 — b4n1@b4n1.com — https://b4n1.com

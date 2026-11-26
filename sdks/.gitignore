@@ -1,0 +1,17 @@
+# Build outputs of every SDK runtime. Each suite compiles in place, and a
+# compiled artifact in the tree makes a later run test yesterday's code.
+bin/
+obj/
+out/
+target/
+*.class
+*.jar
+__pycache__/
+*.pyc
+*.gem
+vendor/bundle/
+composer.lock
+build/
+*.egg-info/
+dist/
+wheelhouse/

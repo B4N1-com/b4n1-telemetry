@@ -1,0 +1,12 @@
+{
+  "name": "@b4n1/telemetry",
+  "version": "0.1.1",
+  "description": "Drop-in error reporting to a b4n1-telemetry collector: uncaught exceptions, batching, correlation. Zero dependencies.",
+  "license": "BUSL-1.1",
+  "main": "index.js",
+  "engines": { "node": ">=18" },
+  "files": ["index.js", "lib/", "README.md", "LICENSE", "EULA.txt"],
+  "scripts": { "test": "node --test test/*.test.js" },
+  "keywords": ["telemetry", "errors", "observability", "b4n1"],
+  "dependencies": {}
+}

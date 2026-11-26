@@ -1,0 +1,9 @@
+[book]
+title = "b4n1-telemetry — manual"
+authors = ["B4N1"]
+language = "en"
+src = "src"
+
+[build]
+build-dir = "book"
+create-missing = false

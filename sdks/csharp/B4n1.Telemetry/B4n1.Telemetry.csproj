@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <!-- netstandard2.0 reaches .NET Framework, .NET Core and .NET 5+: an
+         observability client that only works on the newest runtime cannot be
+         adopted by the applications that most need it. -->
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <RootNamespace>B4n1.Telemetry</RootNamespace>
+    <AssemblyName>B4n1.Telemetry</AssemblyName>
+    <Version>0.1.1</Version>
+    <PackageId>B4n1.Telemetry</PackageId>
+    <Authors>B4N1</Authors>
+    <Description>Drop-in error reporting to your own b4n1-telemetry collector. Zero dependencies.</Description>
+    <PackageLicenseExpression>BUSL-1.1</PackageLicenseExpression>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <GenerateDocumentationFile>false</GenerateDocumentationFile>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+  </PropertyGroup>
+
+  <!-- Both texts travel inside the .nupkg: PackageLicenseExpression alone
+       tells the registry the licence but ships no text (§10k). -->
+  <ItemGroup>
+    <None Include="LICENSE" Pack="true" PackagePath="" />
+    <None Include="EULA.txt" Pack="true" PackagePath="" />
+    <None Include="../README.md" Pack="true" PackagePath="" />
+  </ItemGroup>
+
+</Project>

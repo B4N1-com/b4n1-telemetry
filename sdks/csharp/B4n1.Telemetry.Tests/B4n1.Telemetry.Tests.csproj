@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <!-- Its own project on purpose: a Program.cs next to the package's .csproj
+         gets globbed into the library that ships to the registry. -->
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>disable</Nullable>
+    <LangVersion>latest</LangVersion>
+    <AssemblyName>B4n1.Telemetry.Tests</AssemblyName>
+    <RootNamespace>B4n1.Telemetry.Tests</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="../B4n1.Telemetry/B4n1.Telemetry.csproj" />
+  </ItemGroup>
+
+</Project>
