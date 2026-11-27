@@ -1,0 +1,35 @@
+{
+  "name": "b4n1/b4n1-telemetry",
+  "description": "Sovereign telemetry collector \u2014 durable queue, secret scrubbing, typed API",
+  "type": "library",
+  "license": "BUSL-1.1",
+  "keywords": [
+    "telemetry",
+    "errors",
+    "logs",
+    "tracing",
+    "sovereign"
+  ],
+  "authors": [
+    {
+      "name": "Bani Montoya",
+      "email": "b4n1@b4n1.com"
+    }
+  ],
+  "homepage": "https://b4n1.com",
+  "support": {
+    "issues": "https://github.com/B4N1-com/b4n1-secrets/issues",
+    "source": "https://github.com/B4N1-com/b4n1-secrets"
+  },
+  "autoload": {
+    "psr-4": {
+      "B4N1\\Secrets\\": "sdks/php/src/"
+    }
+  },
+  "bin": [
+    "sdks/php/bin/b4n1secrets"
+  ],
+  "require": {
+    "php": ">=7.4"
+  }
+}
