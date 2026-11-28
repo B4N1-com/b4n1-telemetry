@@ -14,12 +14,15 @@
 
 [![License](https://img.shields.io/badge/license-BUSL--1.1-blue.svg)](LICENSE)
 [![PyPI](https://badge.fury.io/py/b4n1-telemetry.svg)](https://pypi.org/project/b4n1-telemetry/)
+[![PyPI downloads](https://img.shields.io/pypi/dm/b4n1-telemetry.svg)](https://pypi.org/project/b4n1-telemetry/)
+[![Pepy downloads](https://img.shields.io/pepy/dt/b4n1-telemetry.svg)](https://pepy.tech/project/b4n1-telemetry)
 [![npm](https://img.shields.io/npm/v/b4n1-telemetry.svg)](https://www.npmjs.com/package/b4n1-telemetry)
+[![npm downloads](https://img.shields.io/npm/dm/@b4n1%2ftelemetry.svg)](https://www.npmjs.com/package/@b4n1/telemetry)
 [![NuGet](https://img.shields.io/nuget/v/B4n1.Telemetry.svg)](https://www.nuget.org/packages/B4n1.Telemetry)
+[![NuGet downloads](https://img.shields.io/nuget/dt/B4n1.Telemetry.svg)](https://www.nuget.org/packages/B4n1.Telemetry)
 [![RubyGems](https://img.shields.io/gem/v/b4n1-telemetry.svg)](https://rubygems.org/gems/b4n1-telemetry)
 [![Packagist](https://img.shields.io/packagist/v/b4n1/b4n1-telemetry.svg)](https://packagist.org/packages/b4n1/b4n1-telemetry)
 [![Go Reference](https://pkg.go.dev/badge/github.com/B4N1-com/b4n1-telemetry/sdks/go.svg)](https://pkg.go.dev/github.com/B4N1-com/b4n1-telemetry/sdks/go)
-[![Tests](https://img.shields.io/badge/tests-passing-brightgreen)](https://github.com/B4N1-com/b4n1-telemetry)
 
 </div>
 
